@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>CryptoCascade</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><b>CryptoCascade</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="C:\Users\AB TRADERS\HTML tuturiol\CSS TUTORIAL\bootstrap\index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="C:\Users\AB TRADERS\HTML tuturiol\CSS TUTORIAL\bootstrap\about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Topics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i>Airdrops Work</i></a>
+                <a class="dropdown-item" href="#"><i>Upcoming Airdrops</i></a>
+                <a class="dropdown-item" href="#"><i>Active Airdrops</i></a>
+                <a class="dropdown-item" href="#"><i>Airdrop News</i></a>
+                <a class="dropdown-item" href="#"><i>FAQ</i></a>
+                <div class="dropdown-divider">Support</div>
+                <a class="dropdown-item" href="#">Give Feedback</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="C:\Users\AB TRADERS\HTML tuturiol\CSS TUTORIAL\bootstrap\contact.html">Contact Us</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div class="mx-2">
+            <button class="btn btn-danger"data-toggle="modal" data-target="#loginModal">Login</button>
+            <button class="btn btn-danger"data-toggle="modal" data-target="#signupModal">SignUp</button>
+          </div>
+        </div>
+      </nav>
+<!-- Login modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="logineModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login to CryptoCascade</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupeModalLabel">Get an CryptoCascade Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="cexampleInputPassword1" placeholder="Password">
+          </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Create an Account</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://img.freepik.com/premium-photo/hot-business-growth-businessman-using-tablet-analyzing-sales-data-economic-growth-graph-chart_1029473-151342.jpg" alt="First slide" width="1400" height="650">
+            <div class="carousel-caption d-none d-md-block">
+                <h2><b>Welcome to CryptoCascade</b></h2>
+                <p><b>Airdrops News, TGE & Listing</b></p>
+                <button class="btn btn-danger">Airdrops</button>
+                <button class="btn btn-primary">TGE & Listing</button>
+                <button class="btn btn-success">Up coming Airdrop</button>
+
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://stratzy.in/blog/content/images/2024/07/Algo-Trading-Meaning-Basics-and-Example.webp" alt="First slide" width="1400" height="650">
+            <div class="carousel-caption d-none d-md-block">
+                <h2><b>Welcome to CryptoWorld</b></h2>
+                <p><b>Airdrops News, TGE & Listing</b></p>
+                <button class="btn btn-danger">Airdrops</button>
+                <button class="btn btn-primary">TGE & Listing</button>
+                <button class="btn btn-success">Up coming Airdrop</button>
+              </div>
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.shareindia.com/wp-content/uploads/2022/10/Trading-Psychology-%E2%80%93-Mastering-Emotions-Biases-and-Common-Traps.webp" alt="First slide" width="1400" height="650">
+            <div class="carousel-caption d-none d-md-block">
+                <h2><b>Welcome to AirdropWorld</b></h2>
+                <p><b>Airdrops News, TGE & Listing</b></p>
+                <button class="btn btn-danger">Airdrops</button>
+                <button class="btn btn-primary">TGE & Listing</button>
+                <button class="btn btn-success">Up coming Airdrop</button>
+              </div>
+        </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="container my-4">
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQBEsr-JdWW0bWF-E1OS5pYW52ib7So4GILw&s" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Explore Top Cryptocurrencies</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHxO1x1eKVS2IQMT8iJgY0E8Vx4w2bpQ7U_r8WhuyhuGT6ChdHLO9aFoOyAEBv7FimWA&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Real-Time Market Trends</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media.licdn.com/dms/image/v2/D4E12AQEpRgJGmYpd4g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680783039560?e=2147483647&v=beta&t=jP1Fy1TAClObiHJqf88xaJ_Q00NgS3fPugFNUHkHjjM" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Your Guide to Smart Investments</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container my-4">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeFi3JykTpMi8eApYELuNnTCj7PpAjCR-yeQ&s">
+          <div class="card-body">
+            <h5 class="card-title">Explore Top Cryptocurrencies</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://static.vecteezy.com/system/resources/thumbnails/051/239/899/small/digital-graph-chart-showcasing-business-growth-in-the-stock-trade-market-investment-focused-photo.jpeg">
+          <div class="card-body">
+            <h5 class="card-title">Real-Time Market Trends</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="data:image/jpeg;base64,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">
+          <div class="card-body">
+            <h5 class="card-title">Your Guide to Smart Investments</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated recently</small></p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-2024 CryptoCascade, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
